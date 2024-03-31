@@ -39,7 +39,7 @@ require "./PHPMailer/class.smtp.php";
 
 
 
-//$mail = new PHPMailer();
+$mail = new PHPMailer();
 
 // $mail->SMTPDebug = 2; //Enable verbose debug output
 $mail->isSMTP(); //Send using SMTP
